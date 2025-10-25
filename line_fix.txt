@@ -1,0 +1,1 @@
+    anunciarAdvertencia(`🔇 ${jugador.name} ha sido silenciado por ${segundos} segundos. Razón: ${razon}`);

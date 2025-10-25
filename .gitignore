@@ -1,0 +1,46 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración del entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de logs
+logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de build
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Base de datos MySQL - configuración en .env
+# (no hay archivos de BD locales con MySQL)
+
+# Archivos específicos del proyecto que no se deben versionar
+*.backup
+temp_*
+debug_*
+.aider*

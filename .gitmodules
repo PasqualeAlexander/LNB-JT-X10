@@ -1,0 +1,3 @@
+[submodule "stats-dashboard"]
+	url = https://github.com/PasqualeAlexander/BIGGER-WEB
+	path = stats-dashboard

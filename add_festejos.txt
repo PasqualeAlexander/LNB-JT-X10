@@ -1,0 +1,13 @@
+
+// Importar sistema de festejos persistentes
+const festejosModule = require('./festejos_persistent_system');
+const { inicializarSistemaFestejos, cargarFestejos, guardarFestejo, obtenerMensajeFestejo, tieneFestejos, limpiarFestejos } = festejosModule;
+
+// Inicializar el sistema de festejos
+let sistemaFestejosPersistente = null;
+try {
+    sistemaFestejosPersistente = inicializarSistemaFestejos();
+    console.log('✅ Sistema de festejos persistentes inicializado');
+} catch (error) {
+    console.warn('⚠️ No se pudo inicializar el sistema de festejos:', error.message);
+}
